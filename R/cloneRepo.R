@@ -8,7 +8,7 @@
 # called "student_repos".
 #
 
-clone_repo <- function(repo, owner,
+cloneRepo <- function(repo, owner,
                        basePath = "student_repos") {
   repoUrl <- sprintf("https://github.com/%s/%s.git", owner, repo)
   repoPath <- file.path(basePath, repo)
