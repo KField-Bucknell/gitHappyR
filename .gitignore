@@ -3,10 +3,9 @@
 .Rhistory
 .RData
 .Ruserdata
+.httr-oauth
+.quarto
 # Annoying Mac file
 .DS_Store
 # Office junk
 ~$*
-.Rdata
-.httr-oauth
-.quarto
